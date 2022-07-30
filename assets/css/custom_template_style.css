@@ -1,0 +1,68 @@
+/* start primary color */
+.section-title span:after,
+.section-title span:before,
+body .dropdown-item:not(.active):hover,
+body .menu .dropdown-item.active,
+body .color-primary,
+.agents-corousel-item .agent-details .mail:hover,
+.property-card .property-card-box .property-card-title a:hover,
+.menu .nav >.nav-item .nav-link:hover, 
+.menu .active .nav-link,
+.menu .nav-link.active,
+.treefield-categories .treefield-box-item:hover,
+.color-primary-easy,
+body .btn.color-primary {
+    background-color: #0f7ad5;
+}
+
+body .widget .widget-header,
+body .border-color-primary {
+    border-color: #0f7ad5;
+}
+
+.news:not(.section-parallax) .card .title a,
+.property-card .property-card-box .property-card-title, 
+.property-card .property-card-box .property-card-title a, 
+.agents-corousel-item .agent-details .mail,
+body .text-color-primary {
+    color: #0f7ad5 ;
+}
+/* end primary color */
+
+/* start secondary color */
+body .pagination li.page-item a:hover,
+body .pagination li.page-item a.active,
+body .pagination-carousel li a:hover,
+body .pagination-carousel li.active a,
+.header .top-bar .pull-right,
+body .color-secondary,
+body .btn.color-secondary {
+    background-color: #004790;
+}
+
+body .border-color-secondary {
+    border-color: #004790;
+}
+/* end secondary color */
+
+/* background */
+body {
+    background: #EDEEF0;
+  /*background: url(../img/patterns/full-bg-road.jpg) no-repeat fixed;
+    background-size: cover; */
+}
+/* end background */
+
+/* badges */
+
+.property-card .budget, .label-tag-warning {
+    background-color: #B7CC0B;
+}
+
+.label-tag-primary {
+    background-color: #7D881E;
+}
+
+.focus-color-easy {
+    background-color: #F50073;
+}

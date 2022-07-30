@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Components Alert</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <link rel="icon" href="assets/img/favicon.ico" type="image/x-icon" />
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,800,700&amp;subset=latin,cyrillic' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" href="assets/libraries/font-awesome/css/font-awesome.min.css" />
+        <!-- Start BOOTSTRAP -->
+        <link rel="stylesheet" href="assets/libraries/tether/dist/css/tether.min.css" />
+        <link rel="stylesheet" href="assets/libraries/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="assets/css/bootstrap-select.min.css" />
+        <link rel="stylesheet" href="assets/libraries/bootstrap-colorpicker-master/dist/css/bootstrap-colorpicker.min.css" />
+        <!-- End Bootstrap -->
+        <!-- Start Template files -->
+        <link rel="stylesheet" href="assets/css/winter-flat.css" />
+        <link rel="stylesheet" href="assets/css/custom.css" />
+        <!-- End  Template files -->
+        <!-- Start owl-carousel -->
+        <link rel="stylesheet" href="assets/libraries/owl.carousel/assets/owl.carousel.css" />
+        <!-- End owl-carousel -->
+        <!-- Start blueimp  -->
+        <link rel="stylesheet" href="assets/css/blueimp-gallery.min.css" />
+        <!-- End blueimp  -->
+        <script src="assets/js/modernizr.custom.js"></script>
+        <!-- Start custom template style  -->
+        <!-- Start custom template style  -->
+        <link rel="stylesheet" href="assets/css/custom_template_style.css" /> 
+        <!-- End custom template style   -->
+        <!-- End custom template style   -->
+        <!-- Start codemirror  -->
+        <link rel="stylesheet" href="assets/libraries/codemirror/lib/codemirror.css" />
+        <!-- End codemirror  -->
+        <link rel='stylesheet' href='assets/css/palette.css'>
+    </head>
+    <body class="">
+        <div class="container container-wrapper">
+            <header class="header">
+                <div class="top-box" data-toggle="sticky-onscroll">
+                    <div class="container">
+                        <div  class="top-bar color-primary">
+                            <div class="container clearfix">
+                                <div class="pull-left">
+                                    <ul class="login-menu clearfix">
+                                        <li><a href="mylistings.html"><i class="fa fa-list"></i> My listings</a></li>
+                                        <li><a href="mylistings.html"><i class="fa fa-star"></i> My favorites</a></li>
+                                        <li><a href="mylistings.html"><i class="fa fa-envelope"></i> My inquiries </a></li>
+                                        <li><a href="mylistings.html"><i class="fa fa-user"></i> My profile</a></li>
+                                        <li><a href="login.html"><i class="fa fa-power-off"></i> Login</a></li>
+                                    </ul>
+                                </div>
+                                <div class="pull-right">
+                                    <ul class="social-nav clearfix">
+                                        <li><a href="http://www.facebook.com/share.php?u=http%3A%2F%2Ftest.com%2F" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">Facebook</a></li>
+                                        <li><a href="http://twitter.com/home?status=//test.com" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">Twitter</a></li>
+                                        <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=&amp;title=&amp;summary=&amp;source=" onclick="javascript:window.open(this.href, '', 'menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=600,width=600');return false;">Linkid</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div><!-- /.top-bar-->
+                        <section class="header-inner">
+                            <div class="container">
+                                <div class="logo pull-left pull-sm-up col-sm-6 col-xs-12  text-left">
+                                    <a href="index.html">
+                                        <img src="assets/img/logo.png" alt="" />
+                                        <img src="assets/img/logo_mini.png" alt="" class="mini-logo" />
+                                    </a>
+                                </div>
+                                <div class="pull-right pull-sm-up col-sm-6 col-xs-12 websitetitle focus-color  ">
+                                    <a href="login.html" class="row">
+                                        <div class="sub-title">join us</div>
+                                        <h2 class="title">Add your listing</h2>
+                                    </a>
+                                </div>
+                                <div class="pull-left menu"> 
+                                    <div class="box-navigaion clearfix">
+                                        <div class="navbar-header">
+                                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-menu">
+                                                <span class="sr-only">Toggle navigation</span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                                <span class="icon-bar"></span>
+                                            </button>
+                                        </div>
+                                        <div class="lang-manu dropdown pull-right">
+                                            <button class="btn btn-secondary" type="button" id="about-us" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                                <img src="assets/img/flags/en.png" alt="" /> <span>EN</span>
+                                                <i class='icon-dropdown'></i>
+                                            </button>
+                                            <div class="dropdown-menu" aria-labelledby="about-us">
+                                                <a class="dropdown-item" href="#">
+                                                    <img src="assets/img/flags/en.png" alt="" /> EN
+                                                </a>
+                                                <a class="dropdown-item" href="#">
+                                                    <img src="assets/img/flags/hr.png" alt="" /> HR
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <nav class="navbar text-color-primary">
+                                        <div class="text-right">
+                                            <button class="navbar-toggler hidden" type="button" data-toggle="collapse" data-target="#main-menu">
+                                                &#9776;
+                                            </button>
+                                        </div>
+                                        <!-- Links -->
+                                        <div class="collapse navbar-collapse" id="main-menu">
+                                            <ul class="nav navbar-nav clearfix">
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                        Slider
+                                                        <i class="icon-dropdown"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="slider_standard.html">Standard</a>
+                                                        <a class="dropdown-item" href="index_headervideo.html">Video</a>
+                                                        <a class="dropdown-item" href="index_fullscreenslider.html">Full Screen</a>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                        Map
+                                                        <i class="icon-dropdown"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="map.html">Grid results</a>
+                                                        <a class="dropdown-item" href="map_list.html">List result</a>
+                                                        <a class="dropdown-item" href="map_side.html">Side version</a>
+                                                        <a class="dropdown-item" href="map_side_list.html">Side version list</a>
+                                                        <a class="dropdown-item" href="map_geof8f5.html?geolocation=paris">Geo regions</a>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                        Categories
+                                                        <i class="icon-dropdown"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="map_side2.html">Real Estate</a>
+                                                        <a class="dropdown-item" href="index_yacht.html">Yacht Market</a>
+                                                        <a class="dropdown-item" href="index_car.html">Car Dealer</a>
+                                                        <a class="dropdown-item" href="index_job.html">Job Finder</a>
+                                                        <a class="dropdown-item" href="map_business.html">Business Directory</a>
+                                                        <a class="dropdown-item" href="index_classfied.html">Classified Portal</a>
+                                                        <a class="dropdown-item" href="index_shop.html">Basic shop</a>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item dropdown dropdown-mega">
+                                                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                        Featured
+                                                        <i class="icon-dropdown"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu dropdown-menu-property">
+                                                        <div class="container">
+                                                            <div class="row">
+                                                                <div class="col-md-3">
+                                                                    <div class="property-card card">
+                                                                        <div class="property-card-header image-box">
+                                                                            <img src="assets/img/real_estate/real-estate.jpg" alt="" class="" />
+                                                                            <a href="listing.html" class="property-card-hover">
+                                                                                <img src="assets/img/property-hover-arrow.png" alt="" class="left-icon" />
+                                                                                <img src="assets/img/plus.png" alt="" class="center-icon" />
+                                                                                <img src="assets/img/icon-notice.png" alt="" class="right-icon" />
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="property-card-tags">
+                                                                            <span class="label label-default label-tag-primary">sale</span>
+                                                                        </div>
+                                                                        <div class="property-card-box card-box card-block">
+                                                                            <h3 class="property-card-title"><a href="listing.html">Real estate</a></h3>
+                                                                            <div class="property-card-descr">This is simply dummy text of the printing and typesetting industry. That has been the industry standard ...</div>
+                                                                            <div class="property-preview-footer  clearfix">
+                                                                                <div class="property-preview-f-left text-color-primary">
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-home"></i>House
+                                                                                    </span>
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-tint"></i>1
+                                                                                    </span>
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-square-o"></i>200m
+                                                                                    </span>
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-eur"></i>60 000
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-3">
+                                                                    <div class="property-card card">
+                                                                        <div class="property-card-header image-box">
+                                                                            <img src="assets/img/real_estate/coffee-bar-in-odessa.jpg" alt="" class="" />
+                                                                            <a href="listing.html" class="property-card-hover">
+                                                                                <img src="assets/img/property-hover-arrow.png" alt="" class="left-icon" />
+                                                                                <img src="assets/img/plus.png" alt="" class="center-icon" />
+                                                                                <img src="assets/img/icon-notice.png" alt="" class="right-icon" />
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="property-card-tags">
+                                                                            <span class="label label-default label-tag-primary">sale</span>
+                                                                        </div>
+                                                                        <div class="property-card-box card-box card-block">
+                                                                            <h3 class="property-card-title"><a href="listing.html">Coffee bar</a></h3>
+                                                                            <div class="property-card-descr">This is simply dummy text of the printing and typesetting industry. That has been the industry standard ...</div>
+                                                                            <div class="property-preview-footer  clearfix">
+                                                                                <div class="property-preview-f-left text-color-primary">
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-home"></i>House
+                                                                                    </span>
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-tint"></i>1
+                                                                                    </span>
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-square-o"></i>200m
+                                                                                    </span>
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-eur"></i>60 000
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-3">
+                                                                    <div class="property-card card">
+                                                                        <div class="property-card-header image-box">
+                                                                            <img src="assets/img/real_estate/beautiful-backyard-pool-m.jpg" alt="" class="" />
+                                                                            <a href="listing.html" class="property-card-hover">
+                                                                                <img src="assets/img/property-hover-arrow.png" alt="" class="left-icon" />
+                                                                                <img src="assets/img/plus.png" alt="" class="center-icon" />
+                                                                                <img src="assets/img/icon-notice.png" alt="" class="right-icon" />
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="property-card-tags">
+                                                                            <span class="label label-default label-tag-primary">sale</span>
+                                                                        </div>
+                                                                        <div class="property-card-box card-box card-block">
+                                                                            <h3 class="property-card-title"><a href="listing.html">Backyard pool</a></h3>
+                                                                            <div class="property-card-descr">This is simply dummy text of the printing and typesetting industry. That has been the industry standard ...</div>
+                                                                            <div class="property-preview-footer  clearfix">
+                                                                                <div class="property-preview-f-left text-color-primary">
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-home"></i>House
+                                                                                    </span>
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-tint"></i>1
+                                                                                    </span>
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-square-o"></i>200m
+                                                                                    </span>
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-eur"></i>60 000
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="col-md-3">
+                                                                    <div class="property-card card">
+                                                                        <div class="property-card-header image-box">
+                                                                            <img src="assets/img/real_estate/pool-couple-m.jpg" alt="" class="" />
+                                                                            <a href="listing.html" class="property-card-hover">
+                                                                                <img src="assets/img/property-hover-arrow.png" alt="" class="left-icon" />
+                                                                                <img src="assets/img/plus.png" alt="" class="center-icon" />
+                                                                                <img src="assets/img/icon-notice.png" alt="" class="right-icon" />
+                                                                            </a>
+                                                                        </div>
+                                                                        <div class="property-card-tags">
+                                                                            <span class="label label-default label-tag-warning">rent</span>
+                                                                        </div>
+                                                                        <div class="property-card-box card-box card-block">
+                                                                            <h3 class="property-card-title"><a href="listing.html">Pool couple</a></h3>
+                                                                            <div class="property-card-descr">This is simply dummy text of the printing and typesetting industry. That has been the industry standard ...</div>
+                                                                            <div class="property-preview-footer  clearfix">
+                                                                                <div class="property-preview-f-left text-color-primary">
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-home"></i>House
+                                                                                    </span>
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-tint"></i>1
+                                                                                    </span>
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-square-o"></i>200m
+                                                                                    </span>
+                                                                                    <span class="property-card-value">
+                                                                                        <i class="fa fa-eur"></i>60 000
+                                                                                    </span>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="nav-item dropdown">
+                                                    <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                                        Pages
+                                                        <i class="icon-dropdown"></i>
+                                                    </a>
+                                                    <div class="dropdown-menu">
+                                                        <a class="dropdown-item" href="page_gallery.html">Basic with Gallery</a>
+                                                        <a class="dropdown-item" href="login.html">Login</a>
+                                                        <a class="dropdown-item" href="mylistings.html">My Listings</a>
+                                                        <a class="dropdown-item" href="listing.html">Listing Preview</a>
+                                                        <a class="dropdown-item" href="ask_expert.html">FAQ</a>
+                                                        <a class="dropdown-item" href="agents.html">Agents</a>
+                                                        <a class="dropdown-item" href="profile.html">Agent Profile</a>
+                                                        <a class="dropdown-item" href="blog.html">Blog List</a>
+                                                        <a class="dropdown-item" href="page_cart.html">Cart</a>
+                                                        <a class="dropdown-item active" href="component_alerts.html">Components</a>
+                                                        <a class="dropdown-item" href="page_invoice.html">Invoice</a>
+                                                        <a class="dropdown-item" href="contact.html">Contact</a>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </nav>
+                                </div>
+                            </div>
+                        </section><!-- /.menu-->
+                    </div> 
+                </div>
+                <div class="top-box-mask"></div>
+            </header><!-- /.header--> 
+            <main class="main section-color-primary">
+                <div class="container">
+                    <section class="top-title">
+                        <ul class="breadcrumb">
+                            <li class="item"><a href="http://geniuscript.com/"> Home </a></li>
+                            <li class="item"><a href="#"> Components </a></li>
+                            <li class="item"> Alerts </li>
+                        </ul>
+                        <h1 class="h-side-title page-title page-title-big text-color-primary">Alerts</h1> 
+                    </section> <!-- /. content-header --> 
+                    <div class="row">
+                        <div class="col-md-9 components-examples">
+                            <section class="widget widget-box box-container">
+                                <div class="box-container-title">
+                                    <h2 class="title widget-header">Examples</h2> 
+                                    <span class="sub-title">Alerts are available for any length of text, as well as an optional dismiss button. For proper styling, use one of the four required contextual classes (e.g., .alert-success).</span>
+                                </div>
+                                <div class="bd-example">
+                                    <div class="alert alert-success" role="alert">
+                                        <strong>Well done!</strong> You successfully read this important alert message.
+                                    </div>
+                                    <div class="alert alert-info" role="alert">
+                                        <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+                                    </div>
+                                    <div class="alert alert-warning" role="alert">
+                                        <strong>Warning!</strong> Better check yourself, you're not looking too good.
+                                    </div>
+                                    <div class="alert alert-danger" role="alert">
+                                        <strong>Oh snap!</strong> Change a few things up and try submitting again.
+                                    </div>
+                                </div>
+                                <textarea name="input" class="file_content" cols="30" rows="10">
+                                    <div class="alert alert-success" role="alert" >
+                                        <strong>Well done!</strong> You successfully read this important alert message.
+                                    </div>
+                                    <div class="alert alert-info" role="alert">
+                                        <strong>Heads up!</strong> This alert needs your attention, but it's not super important.
+                                    </div>
+                                    <div class="alert alert-warning" role="alert">
+                                        <strong>Warning!</strong> Better check yourself, you're not looking too good.
+                                    </div>
+                                    <div class="alert alert-danger" role="alert">
+                                        <strong>Oh snap!</strong> Change a few things up and try submitting again.
+                                    </div>
+                                </textarea>
+                            </section>
+                            <section class="widget widget-box  box-container">
+                                <div class="box-container-title">
+                                    <h2 class="title widget-header">Link color</h2> 
+                                    <span class="sub-title">Use the .alert-link utility class to quickly provide matching colored links within any alert.</span>
+                                </div>
+                                <div class="bd-example">
+                                    <div class="alert alert-success" role="alert">
+                                        <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+                                    </div>
+                                    <div class="alert alert-info" role="alert">
+                                        <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+                                    </div>
+                                    <div class="alert alert-warning" role="alert">
+                                        <strong>Warning!</strong> Better check yourself, you're <a href="#" class="alert-link">not looking too good</a>.
+                                    </div>
+                                    <div class="alert alert-danger" role="alert">
+                                        <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+                                    </div>
+                                </div>
+                                <textarea name="input" class="file_content" cols="30" rows="10">
+                                    <div class="alert alert-success" role="alert">
+                                        <strong>Well done!</strong> You successfully read <a href="#" class="alert-link">this important alert message</a>.
+                                    </div>
+                                    <div class="alert alert-info" role="alert">
+                                        <strong>Heads up!</strong> This <a href="#" class="alert-link">alert needs your attention</a>, but it's not super important.
+                                    </div>
+                                    <div class="alert alert-warning" role="alert">
+                                        <strong>Warning!</strong> Better check yourself, you're <a href="#" class="alert-link">not looking too good</a>.
+                                    </div>
+                                    <div class="alert alert-danger" role="alert">
+                                         <strong>Oh snap!</strong> <a href="#" class="alert-link">Change a few things up</a> and try submitting again.
+                                    </div>
+                                </textarea>                        
+                            </section>
+
+                            <section class="widget widget-box  box-container">
+                                <div class="box-container-title">
+                                    <h2 class="title widget-header">Dismissing</h2> 
+                                    <span class="sub-title">Using the alert JavaScript plugin, it's possible to dismiss any alert inline. Here's how:</span>
+                                </div>
+                                <ul>
+                                    <li>Be sure you've loaded the alert plugin, or the compiled Bootstrap JavaScript.</li>
+                                    <li>Add a dismiss button and the <code class="highlighter-rouge">.alert-dismissible</code> class, which adds extra padding to the right of the alert and positions the <code class="highlighter-rouge">.close</code> button.</li>
+                                    <li>On the dismiss button, add the <code class="highlighter-rouge">data-dismiss="alert"</code> attribute, which triggers the JavaScript functionality. Be sure to use the <code class="highlighter-rouge">&lt;button&gt;</code> element with it for proper behavior across all devices.</li>
+                                    <li>To animate alerts when dismissing them, be sure to add the <code class="highlighter-rouge">.fade</code> and <code class="highlighter-rouge">.in</code> classes.</li>
+                                </ul>
+                                <div class="bd-example">
+                                    <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">x</span>
+                                        </button>
+                                        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                    </div>
+                                </div>
+                                <textarea name="input" class="file_content" cols="30" rows="10">
+                                    <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                                    </div>
+                                </textarea>
+                            </section>
+                        </div>
+                        <!-- /.right side bar -->
+                        <div class="col-md-3 ">
+                            <div class="widget widget-box box-container widget-list-menu">
+                                <div class="widget-header text-uppercase">
+                                    Components
+                                </div>
+                                <div class="">
+                                    <ul class="categories list-menu">
+                                        <li><a class="dropdown-item" href="component_accordions.html">Accordion</a></li>
+                                        <li><a class="dropdown-item active" href="component_alerts.html">Alerts</a></li>
+                                        <li><a class="dropdown-item" href="#">Blocks</a>
+                                            <ul>
+                                                <li><a href="components_blocks_property.html">Blocks Property</a></li>
+                                                <li><a href="components_blocks_propertylist.html">Blocks Property List</a></li>
+                                                <li><a href="components_blocks_shop.html">Blocks Shop</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="component_breadcrumb.html">Breadcrumb</a></li>
+                                        <li><a class="dropdown-item" href="component_buttons.html">Buttons</a></li>
+                                        <li><a class="dropdown-item" href="component_card.html">Card</a></li>
+                                        <li><a class="dropdown-item" href="#">Carousels</a>
+                                            <ul>
+                                                <li><a href="component_carousel_bootstrap.html">Carousels Bootstrap</a></li>
+                                                <li><a href="component_carousel_owl.html">Carousels owl</a></li>
+                                            </ul>
+                                        </li>
+                                        <li><a class="dropdown-item" href="component_listgroup.html">List Group</a></li>
+                                        <li><a class="dropdown-item" href="component_pagination.html">Pagination</a></li>
+                                        <li><a class="dropdown-item" href="component_progress.html">Progress Bars</a></li>
+                                        <li><a class="dropdown-item" href="component_stars.html">Rating Stars</a></li>
+                                        <li><a class="dropdown-item" href="components_typography.html">Typography</a></li>
+                                    </ul>     
+                                </div>
+                                <!--energy --> 
+                            </div><!-- /. widget -->    
+                        </div><!-- /.center-content -->
+                    </div>
+                </div>
+            </main><!-- /.main-part--> 
+            <footer class="footer">
+                <div class="container footer-mask">
+                    <div class="container footer-contant">
+                        <div class="row">
+                            <div class="col-md-3 hidden-sm hidden-xs">
+                                <div class="logo"><a href="#"><img src="assets/img/logo_white.png" alt="" /></a></div>
+                                <div class="social">
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="title">
+                                    <h4>Contact</h4>
+                                </div>
+                                <ul class="list list-contact  list-news">
+                                    <li>ClassifiedPlace,
+                                        Ilica 345,
+                                        HR-10000 Zagreb</li>
+                                    <li><i class="fa fa-phone"></i> +385 (0)1 123 321</li>
+                                    <li><i class="fa fa-phone"></i>  +385 (0)1 123 322</li>
+                                    <li><i class="fa fa-envelope"></i>  info@my-website.com</li>
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-6  hidden-sm hidden-xs">
+                                <div class="title">
+                                    <h4>News</h4>
+                                </div>
+                                <ul class="list list-news">
+                                    <li>
+                                        <a href="page_gallery.html" class="title">Yacht changing</a>
+                                        <span class="description"> 
+                                            January 6, 2017
+                                        </span>
+                                    </li>                       
+                                    <li>
+                                        <a href="page_gallery.html" class="title">Women successfully</a>
+                                        <span class="description"> 
+                                            May 22, 2017
+                                        </span>
+                                    </li>                       
+                                    <li>
+                                        <a href="page_gallery.html" class="title">Better portal for City</a>
+                                        <span class="description"> 
+                                            June 22, 2017
+                                        </span>
+                                    </li>                       
+                                    <li>
+                                        <a href="page_gallery.html" class="title">A better guest</a>
+                                        <span class="description"> 
+                                            January 19, 2017
+                                        </span>
+                                    </li>                       
+                                    <li>
+                                        <a href="page_gallery.html" class="title">Yacht prices</a>
+                                        <span class="description"> 
+                                            January 27, 2017
+                                        </span>
+                                    </li>                       
+                                </ul>
+                            </div>
+                            <div class="col-md-3 col-sm-6">
+                                <div class="title">
+                                    <h4>Opening hours</h4>
+                                </div>
+                                <ul class="list list-hours">
+                                    <li>
+                                        <a href="page_gallery.html" class="title">Mon-Tues:</a>
+                                        <span class="description"> 
+                                            6.30 am - 18.00pm
+                                        </span>
+                                    </li>                       
+                                    <li>
+                                        <a href="page_gallery.html" class="title">Wed - Th:</a>
+                                        <span class="description"> 
+                                            10.00 am - 11.30pm
+                                        </span>
+                                    </li>                       
+                                    <li>
+                                        <a href="page_gallery.html" class="title">Fri:</a>
+                                        <span class="description"> 
+                                            2.30 pm - 10.00pm
+                                        </span>
+                                    </li>                       
+                                    <li>
+                                        <a href="page_gallery.html" class="title">Sun:</a>
+                                        <span class="description"> 
+                                            Closed
+                                        </span>
+                                    </li>                       
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- /.footer-content -->
+                    <div class="footer-bottom">
+                        <div class="container text-right">
+                            <span class=""><a href="#">WINTER &#169; 2016</a></span>
+                        </div>
+                    </div><!-- /.footer-bottom --> 
+                </div>
+            </footer>
+      <div class="custom-palette border-color-secondary  palette-closed">
+                <div class="custom-palette-box">
+                    <div class="custom-palette-box-pr">
+                        <div class="row-fluid">
+                            <div class='palette-prepared' id='palette-colors-prepared'>
+                                <label class="label-title">Color Variant</label>
+                                <ul class="palette-prepared-list palette-colors clearfix">
+                                    <li class="palette-color-red" data-color-id='red' data-primary-color='#cf4041' data-secondary-color='#a61c1d' data-focus-color='#000000' data-badgesprimary-color='#387DAB' data-badgessecondary-color='#314D68'><a href="#" title='red'></a></li>
+                                    <li class="palette-color-pink" data-color-id='pink' data-primary-color='#bf224e' data-secondary-color='#940a31' data-focus-color='#b6ac20' data-badgesprimary-color='#2892BA' data-badgessecondary-color='#296275'><a href="#" title='pink'></a></li>
+                                    <li class="palette-color-blue" data-color-id='blue' data-primary-color='#0f7ad5' data-secondary-color='#004790)' data-focus-color='#cc1b0e' data-badgesprimary-color='#B7CD08' data-badgessecondary-color='#7D881E'><a href="#" title='blue'></a></li>
+                                    <li class="palette-color-green" data-color-id='green' data-primary-color='#39b54a' data-secondary-color='#2f913c' data-focus-color='#5C36AD' data-badgesprimary-color='#AD7236' data-badgessecondary-color='#5E4830'><a href="#" title='green'></a></li>
+                                    <li class="palette-color-cyan" data-color-id='cyan' data-primary-color='#0aa699' data-secondary-color='#197069'  data-focus-color='#9d098c' data-badgesprimary-color='#F2CE3A' data-badgessecondary-color='#9D7E09'><a href="#" title='cyan'></a></li>
+                                    <li class="palette-color-purple" data-color-id='purple' data-primary-color='#8e5c90' data-secondary-color='#5a2f5c' data-focus-color='#000000' data-badgesprimary-color='#55867D' data-badgessecondary-color='#56857D'><a href="#" title='purple'></a></li>
+                                    <li class="palette-color-orange" data-color-id='orange' data-primary-color='#d9b62e' data-secondary-color='#967e1b' data-focus-color='#000000' data-badgesprimary-color='#D927CE' data-badgessecondary-color='#D927CE'><a href="#" title='orange'></a></li>
+                                    <li class="palette-color-brown" data-color-id='brown' data-primary-color='#846447' data-secondary-color='#a1764f' data-focus-color='#000000' data-badgesprimary-color='#504180' data-badgessecondary-color='#4E3F79'><a href="#" title='brown'></a></li>
+                                </ul>
+                            </div>
+                            <div class="custom-palette-color" >
+                                <label class="label-title">Primary color</label>
+                                <div class="input-group " id="color-primary">
+                                    <input type="text" value="" class="form-control" />
+                                    <span class="input-group-addon"><i></i></span>
+                                </div>
+                            </div>
+                            <div class="custom-palette-color">
+                                <label class="label-title">Secondary color</label>
+                                <div class="input-group" id="color-secondary">
+                                    <input type="text" value="" class="form-control" />
+                                    <span class="input-group-addon"><i></i></span>
+                                </div>
+                            </div>
+                            <div class="custom-palette-color">
+                                <label class="label-title">Focus color</label>
+                                <div class="input-group" id="color-focus">
+                                    <input type="text" value="" class="form-control" />
+                                    <span class="input-group-addon"><i></i></span>
+                                </div>
+                            </div>
+                            <div class="custom-palette-color visible-lg">
+                                <label class="label-title">Badges primary</label>
+                                <div class="input-group" id="badges-primary">
+                                    <input type="text" value="" class="form-control" />
+                                    <span class="input-group-addon"><i></i></span>
+                                </div>
+                            </div>
+                            <div class="custom-palette-color visible-lg">
+                                <label class="label-title">Badges secondary</label>
+                                <div class="input-group" id="badges-secondary">
+                                    <input type="text" value="" class="form-control" />
+                                    <span class="input-group-addon"><i></i></span>
+                                </div>
+                            </div>
+                            <div class="custom-palette-color">
+                                <div class="input-group">
+                                    <label class="c-input c-radio">
+                                        <input name="type-site" type="radio" value="boxed">
+                                        <span class="c-indicator"></span>
+                                        boxed
+                                    </label>
+
+                                    <label class="c-input c-radio">
+                                        <input name="type-site" type="radio" value="" checked="checked">
+                                        <span class="c-indicator"></span>
+                                        wide
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="custom-palette-color" id='pallete-background-boxed'>
+                                <label class="label-title">Background color</label>
+                                <div class="input-group" id="color-background">
+                                    <input type="text" value="" class="form-control" />
+                                    <span class="input-group-addon"><i></i></span>
+                                </div>
+                                <div class='palette-prepared' id='palette-backgroundimage-prepared'>
+                                    <ul class="palette-prepared-list palette-prepared-list-images clearfix">
+                                        <li data-backgroundimage-style='fixed' data-backgroundimage='assets/img/patterns/bg-white-lily-l.jpg'><a href="#"><img src="assets/img/patterns/bg-white-lily-l.jpg" alt="" /></a></li>
+                                        <li data-backgroundimage-style='fixed' data-backgroundimage='assets/img/patterns/bg-grass-m.jpg'><a href="#"><img src="assets/img/patterns/bg-grass-m.jpg" alt="" /></a></li>
+                                        <li data-backgroundimage-style='fixed' data-backgroundimage='assets/img/patterns/bg-villa-m.jpg'><a href="#"><img src="assets/img/patterns/bg-villa-m.jpg" alt="" /></a></li>
+                                        <li data-backgroundimage-style='fixed' data-backgroundimage='assets/img/patterns/wood-background-m.jpg'><a href="#"><img src="assets/img/patterns/wood-background-m.jpg" alt="" /></a></li>
+                                        <li data-backgroundimage-style='fixed' data-backgroundimage='assets/img/patterns/bg-a-farm-l.jpg'><a href="#"><img src="assets/img/patterns/bg-a-farm-l.jpg" alt="" /></a></li>
+                                        <li data-backgroundimage-style='fixed' data-backgroundimage='assets/img/patterns/bg-lavender.jpg'><a href="#"><img src="assets/img/patterns/bg-lavender.jpg" alt="" /></a></li>
+                                        <li data-backgroundimage-style='fixed' data-backgroundimage='assets/img/patterns/full-bg-ocean.jpg'><a href="#"><img src="assets/img/patterns/full-bg-ocean.jpg" alt="" /></a></li>
+                                        <li data-backgroundimage-style='fixed' data-backgroundimage='assets/img/patterns/full-bg-road.jpg'><a href="#"><img src="assets/img/patterns/full-bg-road.jpg" alt="" /></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row-fluid text-center">
+                            <a href="#" class="btn btn-primary color-secondary full-width btn-wide" id="pallete-save"><span>Save</span></a>
+                        </div>
+                        <div class="row-fluid text-center">
+                            <a href="#" class="btn btn-primary color-secondary btn-wide" id="pallete-reset"><span>Reset</span></a>
+                        </div>
+                        <a class="btn btn-primary custom-palette-btn color-secondary">
+                            <span>options</span>
+                        </a>
+                    </div>
+                </div>
+            </div><!-- /.custom-palette -->  
+            <a class="btn btn-scoll-up color-secondary" id="btn-scroll-up"></a>
+        </div>
+        <!-- Start Jquery -->
+        <script src="assets/js/jquery-2.2.1.min.js"></script>
+        <script src="assets/libraries/jquery.mobile/jquery.mobile.custom.min.js"></script>
+        <!-- End Jquery -->
+        <!-- Start BOOTSTRAP -->
+        <script src="assets/libraries/tether/dist/js/tether.min.js"></script>
+        <script src="assets/libraries/bootstrap/dist/js/bootstrap.min.js"></script>
+        <script src="assets/js/bootstrap-select.min.js"></script>
+        <script src="assets/libraries/bootstrap-colorpicker-master/dist/js/bootstrap-colorpicker.min.js"></script>
+        <!-- End Bootstrap -->
+        <!-- Start Template files -->
+        <script src="assets/js/winter-flat.js"></script>
+        <!-- End  Template files -->
+        <!-- Start owl-carousel -->
+        <script src="assets/libraries/owl.carousel/owl.carousel.min.js"></script>
+        <!-- End owl-carousel -->
+        <!-- Start blueimp  -->
+        <script src="assets/js/blueimp-gallery.min.js" type="text/javascript"></script>
+        <!-- End blueimp  -->
+        <!-- Start custom template style  -->
+        <script src="assets/js/custom_template_style.js" type="text/javascript"></script>
+        <!-- End custom template style   -->
+        <!-- Start codemirror  -->
+        <script src="assets/libraries/codemirror/lib/codemirror.js"></script>
+        <script src="assets/libraries/codemirror/mode/javascript/javascript.js"></script>
+        <script src="assets/libraries/codemirror/addon/edit/matchbrackets.js"></script>
+        <script src="assets/libraries/codemirror/mode/htmlmixed/htmlmixed.js"></script>
+        <script src="assets/libraries/codemirror/mode/xml/xml.js"></script>
+        <script src="assets/libraries/codemirror/mode/css/css.js"></script>
+        <script src="assets/libraries/codemirror/mode/clike/clike.js"></script>
+        <script src="assets/libraries/codemirror/mode/php/php.js"></script>
+        <script src="assets/js/codemirror_init.js"></script>
+        <!-- End codemirror  -->
+        <script src='assets/js/palette.js'></script>
+    </body>
+</html>

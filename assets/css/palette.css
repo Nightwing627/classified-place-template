@@ -1,0 +1,206 @@
+/* CUSTOM PALETTE */
+
+.colorpicker {
+   z-index: 99999 !important;
+}
+
+.custom-palette {
+    display: block !important;
+    border-top: 2px solid #0f7ad5;
+    border-right: 2px solid #0f7ad5;
+    border-bottom: 2px solid #0f7ad5;
+    left: 0;
+    position: fixed;
+    -webkit-transition: margin 0.2s linear;
+    -moz-transition: margin 0.2s linear;
+    -o-transition: margin 0.2s linear;
+    transition: margin 0.2s linear;
+    top: 125px;
+    z-index: 15000;
+}
+
+.custom-palette .custom-palette-box {
+    background: #fff;
+    color: black;
+    position:relative;
+    padding: 15px 15px;
+    padding-right: 0;
+    width: 210px;
+}
+
+.custom-palette .custom-palette-box .custom-palette-box-pr {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+    padding-right: 15px;
+}
+
+.custom-palette .custom-palette-box .custom-palette-btn  {
+    border: 0;
+    border-radius: 0;
+    font-size: 18px;
+    font-weight: 600;
+    outline: 1px solid white;
+    outline-offset: -3px;
+    position:absolute;
+    padding:  10px 25px;
+    right: -88px;
+    top: 41px;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    -moz-transform: rotate(-90deg);
+    text-transform: uppercase;
+}
+
+.custom-palette.palette-closed {
+    margin-left: -212px;;
+}
+
+#pallete-save,
+#pallete-reset {
+    margin-top: 15px;
+}
+
+.custom-palette .custom-palette-box input:not([type="radio"]) {
+    background: #F1F1F1;
+    border: 1px solid #ccc;
+    height: 32px;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.custom-palette .custom-palette-box .c-input:first-child {
+    margin-right: 35px;
+}
+
+.custom-palette .custom-palette-box .c-input {
+    cursor: pointer;
+}
+
+
+.custom-palette .custom-palette-box .c-input input {
+    margin-bottom: 4px;
+}
+
+.custom-palette .input-group {
+    margin-bottom: 15px;
+}
+
+.custom-palette .label-title {
+    color: #000;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Open Sans Light', sans-serif;
+    line-height: 1;
+    margin-bottom: 12px;
+    padding-bottom: 5px;
+    position: relative;
+}
+
+.custom-palette .label-title:after {
+    background: #DDD;
+    bottom: -5px;
+    content:'';
+    position: absolute;
+    height: 1px;
+    left: 0;
+    width: 100%;
+}
+
+.custom-palette .input-group-addon {
+    background-color: #e5e5e5;
+    padding: 5px 14px;
+}
+
+.custom-palette .colorpicker-element .input-group-addon i {
+    margin-top: 2px;
+}
+
+
+.custom-palette .palette-prepared ul {
+    margin: 0;
+    list-style: none;
+    padding: 0;
+}
+
+.custom-palette .palette-prepared ul {
+    list-style: none;
+    margin: 0;
+    margin-right: -13px;
+    padding: 0;
+}
+
+.custom-palette .palette-prepared li {
+    border: 1px solid rgba(0,0,0,0.1);
+    display: block;
+    float: left;
+    list-style: none;
+    margin-bottom: 11px;
+    margin-right: 12px;
+}
+
+.custom-palette .palette-prepared-list a {
+    background-color: black;
+    display: block;
+    height: 26px;
+    margin: 1px;
+    width: 26px;
+}
+
+.custom-palette .palette-prepared-list-images a img {
+    height: 100%;
+    object-fit: cover;
+    -webkit-object-fit: cover;
+    -moz-object-fit: cover;
+    -ms-object-fit: cover;
+    -o-object-fit: cover;
+    width: 100%;
+}
+
+.custom-palette .palette-color-orange a {
+    background-color: #f3c409;
+}
+
+.custom-palette .palette-color-brown a {
+    background-color: #846447;
+}
+
+.custom-palette .palette-color-purple a {
+    background-color: #8e5c90;
+}
+
+.custom-palette .palette-color-cyan a {
+    background-color: #0aa699;
+}
+
+.custom-palette .palette-color-green a {
+    background-color: #39b54a
+}
+
+.custom-palette .palette-color-blue a {
+    background-color: #19a0d8;
+}
+
+.custom-palette .palette-color-pink a {
+    background-color: #bf224e;
+}
+
+.custom-palette .palette-color-red a {
+    background-color: #cd2122;
+}
+
+.custom-palette  .c-input>input:focus~.c-indicator {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+#palette-backgroundimage-prepared a.active {
+    box-shadow: 2px 2px 0 #666;
+    -webkit-box-shadow: 2px 2px 0 #666;
+}
+
+#pallete-background-boxed {
+    display: block;
+}
+
+/* CUSTOM PALETTE */
